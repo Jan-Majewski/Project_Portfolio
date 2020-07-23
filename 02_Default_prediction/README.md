@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Jan-Majewski/Project_Portfolio/02_Default_prediction">
-    <img src="logo.png" alt="Logo" width="642" height="481">
+    <img src="logo.png" alt="Logo" width="591" height="332">
   </a>
 
 
