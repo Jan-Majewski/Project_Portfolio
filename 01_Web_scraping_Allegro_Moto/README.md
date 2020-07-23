@@ -5,10 +5,11 @@
 <br />
 <p align="center">
   <a href="https://github.com/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto">
-    <img src="images/logo.png" alt="Logo" width="400" height="400">
+    <img src="images/logo.png" alt="Logo" width="642" height="481">
   </a>
 
-  
+
+
 </p>
 
 -->
@@ -20,8 +21,9 @@
 
 <!-- Add buttons here -->
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto)
+![GitHub last commit](https://img.shields.io/github/last-commit/Jan-Majewski/Project_Portfolio)
 [![LinkedIn][linkedin-shield]][linkedin-url]
+![Other projects](https://img.shields.io/github/license/Jan-Majewski/Project_Portfolio)
 
 
 
@@ -41,16 +43,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Allegro is the leading online marketplace in Poland. The aim of the project is extracting key data from Allegro Automotive, which will be later used in analysis of car offer pricing.
+The aim of this project was to practice Web Scraping, EDA and simple regression models using real data. I chose car offers from Allegro (leading online marketplace in Poland), focusing on BMW out of personal interest.
 
-First notebook is focused on scraping Allegro pages with beautiful soup, understanding the html code and extracting desired data. After storing data it will be analyzed in following notebook.
+The project consists of 2 parts
+* PART 1. Webscraping - notebook focused on scraping Allegro pages with beautiful soup, understanding the html code and extracting desired data. The aim of this notebook is to serve as a tutorial to data extraction from Allegro and can be easility used for any Automotive Allegro pages.
 
-The aim of this notebook is to serve as a tutorial to data extraction from Allegro and can be easility used for any Automotive Allegro pages, just by changing link below. It can also be adjusted to any product category after edits to key parameter data described in 3.1
-
-
-In the second part of this project, my aim is to explore data scrapped from Allegro. The data consists of offers for BMW cars. After initial feature exploration, I have build a simple regression model, which allows to interpret key features effect on offer price.
-
-This notebook combines ETL, visualization and statistical approach to data exploration. All the steps conducted in this part can be used as a foundation for a more advanced Machine Learning project.
+* PART 2. EDA and price benchmarking - exploring 2000 BMW car offers scrapped from Allegro. Initial feature exploration, analysing key depraciation drivers and transforming data is followed by building a simple regression model, which allows to interpret key features effect on offer price. Simple linear regression model on log price provides quite an accurate estimate of key features such as Age, Mileage and Engine Power on offer price. 
 
 
 
@@ -63,12 +61,6 @@ This notebook combines ETL, visualization and statistical approach to data explo
 
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[commit-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[commit-url]: https://github.com/othneildrew/Best-README-Template/network/members
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jan-majewski-132907104/
