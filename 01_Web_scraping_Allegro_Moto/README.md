@@ -21,9 +21,8 @@
 
 <!-- Add buttons here -->
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Jan-Majewski/Project_Portfolio)
+![GitHub last commit](https://img.shields.io/github/last-commit/Jan-Majewski/Project_Portfolio?01_Web_scraping_Allegro_Moto)
 [![LinkedIn][linkedin-shield]][linkedin-url]
-![Other projects](https://img.shields.io/github/license/Jan-Majewski/Project_Portfolio)
 
 
 
@@ -34,7 +33,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
+* [Built With](#built-with)
 
 
 
@@ -45,10 +44,11 @@
 
 The aim of this project was to practice Web Scraping, EDA and simple regression models using real data. I chose car offers from Allegro (leading online marketplace in Poland), focusing on BMW out of personal interest.
 
-The project consists of 2 parts
-* PART 1. Webscraping - notebook focused on scraping Allegro pages with beautiful soup, understanding the html code and extracting desired data. The aim of this notebook is to serve as a tutorial to data extraction from Allegro and can be easility used for any Automotive Allegro pages.
+#### The project consists of 2 parts:
 
-* PART 2. EDA and price benchmarking - exploring 2000 BMW car offers scrapped from Allegro. Initial feature exploration, analysing key depraciation drivers and transforming data is followed by building a simple regression model, which allows to interpret key features effect on offer price. Simple linear regression model on log price provides quite an accurate estimate of key features such as Age, Mileage and Engine Power on offer price. 
+* PART 1) Webscraping - notebook focused on scraping Allegro pages with beautiful soup, understanding the html code and extracting desired data. The aim of this notebook is to serve as a tutorial to data extraction from Allegro and can be easility used for any Automotive Allegro pages.
+
+* PART 2) EDA and price benchmarking - exploring 2000 BMW car offers scrapped from Allegro. Initial feature exploration, analysing key depraciation drivers and transforming data is followed by building a simple regression model, which allows to interpret key features effect on offer price. Simple linear regression model on log price provides quite an accurate estimate of key features such as Age, Mileage and Engine Power on offer price. 
 
 
 
