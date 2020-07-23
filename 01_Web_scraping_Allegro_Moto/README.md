@@ -27,19 +27,12 @@
 
 
 
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-<<<<<<< HEAD
 * [Key Takeaways](#key-takeaways)
-=======
->>>>>>> 2894dcd43ffe7ab6dc8e1b4aa4feb4ec5d2ea1e1
-
-
 
 
 
