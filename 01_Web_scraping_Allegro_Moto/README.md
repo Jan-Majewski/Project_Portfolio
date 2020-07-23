@@ -1,16 +1,26 @@
 
 <!-- PROJECT LOGO -->
 
-![Banner](https://github.com/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto/images/logo.png)
 
+<br />
+<p align="center">
+  <a href="https://github.com/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto">
+    <img src="images/logo.png" alt="Logo" width="400" height="400">
+  </a>
+
+  
+</p>
+
+-->
 
 # BMW price analysis with Allegro web-scraping
 
 
 
 
--->
-![GitHub last commit](https://img.shields.io/github/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto)
+<!-- Add buttons here -->
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto)
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -56,6 +66,9 @@ This notebook combines ETL, visualization and statistical approach to data explo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[commit-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[commit-url]: https://github.com/othneildrew/Best-README-Template/network/members
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jan-majewski-132907104/
