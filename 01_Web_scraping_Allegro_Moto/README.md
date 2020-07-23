@@ -1,29 +1,16 @@
 
 <!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  
-</p>
+![Banner](https://github.com/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto/images/logo.png)
 
--->
 
 # BMW price analysis with Allegro web-scraping
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+
 -->
-[GitHub last commit](https://img.shields.io/github/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto)
+![GitHub last commit](https://img.shields.io/github/Jan-Majewski/Project_Portfolio/01_Web_scraping_Allegro_Moto)
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -59,10 +46,10 @@ This notebook combines ETL, visualization and statistical approach to data explo
 
 ### Built With
 
-* [BeautifulSoup]
-* [SciKit-learn]
-* [Plotly]
-* [Statsmodels]
+* BeautifulSoup
+* SciKit-learn
+* Plotly
+* Statsmodels
 
 
 
