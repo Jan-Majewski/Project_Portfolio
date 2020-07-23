@@ -34,6 +34,10 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
+<<<<<<< HEAD
+* [Key Takeaways](#key-takeaways)
+=======
+>>>>>>> 2894dcd43ffe7ab6dc8e1b4aa4feb4ec5d2ea1e1
 
 
 
@@ -59,6 +63,17 @@ The aim of this project was to practice Web Scraping, EDA and simple regression 
 * Plotly
 * Statsmodels
 
+
+### Key takeaways
+A simple econometric approach to price benchmarking with use of WLS regression provided interesting insights into 8 key features with greatest influence on car price and depreciation. Although the model itself was underfitting the data and had mean percentage error of over 35% on train set, the coefficients provided some interesting trends, which moved in line with key drivers based on domain knowledge. 
+
+As an example, coefficient for Used feature was equal to -0.22, which can be interpreted as a BMW car loosing 22% of its value after leaving the dealership - knowing that this fall also includes dealership discounts the value is quite precise. 
+
+Age and Mileage have similar efect on price with approximately 16% of value lost for every 100k km driven and 8.5% depreciation with every year of age. 
+
+There were only 3 features increasing offer price - 20% increase for 4-wheel drive, 28% of increase for automatic gearbox and 32% increase for every extra 100 bhp. 
+
+High price increase for automatic gearbox is probably the most missleading coefficient, but knowing that this type of gearbox is usually present in higher trims it could be justified as premium paid for the highest configuration, which can reach over 20% in premium cars. 
 
 
 
