@@ -1,6 +1,4 @@
 
-<!-- PROJECT LOGO -->
-
 
 <br />
 <p align="center">
@@ -12,7 +10,7 @@
 
 </p>
 
--->
+
 
 # BMW price analysis with Allegro web-scraping
 
