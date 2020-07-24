@@ -1,5 +1,5 @@
 
-<!-- PROJECT LOGO -->
+
 
 
 <br />
@@ -12,7 +12,7 @@
 
 </p>
 
--->
+
 
 # Credit default prediction  - ML models comparison
 
