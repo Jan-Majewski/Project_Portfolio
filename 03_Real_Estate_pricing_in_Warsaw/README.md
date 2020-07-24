@@ -50,11 +50,11 @@ Topics covered in this projects are the foundation on my current project of Web 
 
 #### The project consists of 3 parts:
 
-- PART1) Focuses on websraping, extracting data from json, extracting category and multicategory data to one-hot vectors suitable for models and data cleaning. One of most interesting elements of this notebook is imputation of misslabeled district names with use of nearest neighbour voting. 
+- PART1) Focuses on webscraping, extracting data from json, extracting category and multicategory data to one-hot vectors suitable for models and data cleaning. One of most interesting elements of this notebook is imputation of misslabeled district names with use of nearest neighbour voting. 
 
-- PART2) Deals with geospatial data vizualization.  I decided to experiment with geojson heatmaps to create immersive maps. Using heatmaps to visualize prices or drivetime is much easier to read than any other methods absed on scatter plots or grid choropleth maps.  
+- PART2) Deals with geospatial data vizualization.  I decided to experiment with geojson heatmaps to create immersive maps. Using heatmaps to visualize prices or drivetime is much easier to read than any other methods based on scatter plots or grid choropleth maps.  
 
-- PART3) Experiments with building several models to model predict and benchmark prices. Thorough error analysis based on spatial properties allows to balance model tuning with data enrichment as after initial training some of the errors were geogrphy specific, wchich means that our data did not capture some of the important location features. 
+- PART3) Experiments with building several models to model predict and benchmark prices. Thorough error analysis based on spatial characteristics allows to balance model tuning with data enrichment as after initial training some of the errors were geogrphy specific, wchich means that our data did not capture some of the important location features. Adding additional sources helped to reduce error much more than any improvement of the models could.  
 
 
 ## Built With
@@ -71,17 +71,17 @@ Topics covered in this projects are the foundation on my current project of Web 
 
 Extracting Real Estate data proved to be much more challenging than working with car offers as flats have many more features. Their features are also structured in a more complex way with majority of features saved as multilabel data. Use of Sklearn pipeline with MultiLabelBinazer helped to solve this issue and make data ready for modelling. On the other hand, the fact that Real Estate offers are always linked to some location by coordinates makes combining multiple data sources much easier. 
 
-Using geojson contour to create custom choropleth heatmaps allowed to make geospatial visuzalization much more attractive. Working with multiple data sources allows to visualize specific characteristics of different parts of Warsaw. 
+Using geojson contour to create custom choropleth heatmaps allowed to make geospatial visuzalization much more attractive. Working with multiple data sources allows to visualize specific characteristics of different parts of Warsaw. This created some interesting insights, which I would not have found otherwise despite living in Warsaw for two decades. 
 
-Creating price benchmarking models using 50 top features showed that distance and drivetime to center are the most important sources of information about property price - this is logical as these featuers best describe "good location", which is the key driver of real estate prices. Other important features include a discount for East Bank of Vistula river and Bialoleka district where prices are much lower than in other geographies. Floor number is the most important property specific feature with garage and lift also being quite important. \
+Creating price benchmarking models using 50 top features showed that distance and drivetime to center are the most important sources of information about property price - this is logical as these featuers best describe "good location", which is the key driver of real estate prices. Other important features include a discount for East Bank of Vistula river and Bialoleka district where prices are much lower than in other geographies. Floor number is the most important property specific feature with garage and lift also being quite important.
 
-Suprisingly two features describing local reaturants made it into top 10 predictors - restaurants popularity (no. of reviews) and restaurant price level. This can be seen as "The chicken or the egg" causality dilema - probably popular districts drive restaurant popularity and not the other way round but despite local restaurants being the effect of popular locations not the other way around, their data can be still used to model popular and fancy locations effect on price. 
+Suprisingly two features describing local reaturants made it into top 10 predictors - restaurants popularity (no. of reviews) and restaurant price level. This can be seen as "The chicken or the egg" causality dilemma - probably popular districts drive restaurant popularity and not the other way round but despite local restaurants being the effect of popular locations not the other way around, their data can be still used to model popular and fancy locations effect on price. 
 
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jan-majewski-132907104/
 
 
-[medium-shield]: https://img.shields.io/badge/-Medium-black.svg?style=flat-square&
+[medium-shield]: https://img.shields.io/badge/-Articles-black.svg?style=flat-square&
 [medium-url]: https://towardsdatascience.com/visualizing-spatial-data-with-geojson-heatmaps-1fbe2063ab86
 
