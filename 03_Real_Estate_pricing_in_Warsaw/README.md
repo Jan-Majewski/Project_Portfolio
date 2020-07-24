@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Jan-Majewski/Project_Portfolio/03_Real_Estate_pricing_in_Warsaw">
-    <img src="banner.png" alt="Logo" width="865" height="720">
+    <img src="banner.png" alt="Banner" width="865" height="720">
   </a>
 
 
@@ -20,7 +20,7 @@
 
 
 <!-- Add buttons here -->
-![GitHub first commit](https://img.shields.io/github/first-commit/Jan-Majewski/Project_Portfolio?03_Real_Estate_pricing_in_Warsaw)
+![GitHub first commit](https://img.shields.io/github/initial-commit/Jan-Majewski/Project_Portfolio?03_Real_Estate_pricing_in_Warsaw)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Jan-Majewski/Project_Portfolio?03_Real_Estate_pricing_in_Warsaw)
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Related articles][medium-shield]][medium-url]
