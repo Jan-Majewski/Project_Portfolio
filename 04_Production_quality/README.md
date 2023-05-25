@@ -22,9 +22,6 @@
 <!-- Add buttons here -->
 ![GitHub last commit](https://img.shields.io/github/last-commit/Jan-Majewski/Project_Portfolio?04_Production_quality)
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Related articles][medium-shield]][medium-url]
-
-
 
 
 
