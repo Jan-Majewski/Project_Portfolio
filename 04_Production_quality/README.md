@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Jan-Majewski/Project_Portfolio/04_Production_quality">
-    <img src="banner.png" alt="Banner" width="865" height="720">
+    <img src="banner.png" alt="Banner" width="1040" height="590">
   </a>
 
 
